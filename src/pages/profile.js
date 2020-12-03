@@ -28,6 +28,8 @@ export const profilePage = () => {
     product[name] = value;
   };
 
+
+  
   form.addEventListener('input', onHandleChange);
   form.addEventListener('submit', onHandleSubmit);
 };
